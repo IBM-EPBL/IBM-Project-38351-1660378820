@@ -1,0 +1,49 @@
+body{
+    background: fixed;
+    background-color: rgb(193, 153, 229);
+
+}
+.container{
+    padding: 20px;
+    top: 80px;
+    left: 50%;
+    width: 430px;
+    height: 500px;
+    background-color: rgb(5, 5, 56);
+    position: relative;
+    border-radius: 25px;
+    box-shadow: 20px;
+    color: white;
+    text-align: center;
+}
+.registerbtn{
+    background-color:  rgb(193, 153, 229);
+    border-color: rgb(193, 153, 229);
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-weight: bolder;
+    color: rgb(5, 5, 56);
+
+}
+.registerbtn:hover{
+    border-color: white;
+    background-color: white;
+}
+#email,
+#name,
+#mobile,
+#city,
+#state,
+#country{
+    color: white;
+    background-color: rgb(5, 5, 56);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: grey;
+    padding: 5px;
+    width: 270px;
+    outline: none;
+
+}
