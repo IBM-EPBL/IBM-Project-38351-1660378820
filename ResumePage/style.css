@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.direction{
+    flex-direction: column;
+}
+
+.resumeContainer{
+    width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.headingContainer{
+    justify-content: space-between;
+    width: 100%;
+}
+
+.detailsContainer{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px black;
+    margin: 20px;
+}
+
+.introContainer{
+    width: 100%;
+    justify-content: flex-start;
+    background-color: rgb(0, 132, 255);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 50px;
+}
+
+.imageContainer img{
+    height: 250px;
+    width: 200px;
+}
+
+.icons i{
+    margin: 0 5px;
+}
+
+.nameContainer{
+    margin-left: 150px;
+    text-align: left;
+}
+
+.nameContainer h1, .nameContainer h3, .buttonsContainer{
+    padding: 10px;
+    width: 100%;
+}
+
+.nameContainer h1, .nameContainer h3{
+    color: white;
+}
+
+.buttonsContainer button{
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+.hireBtn{
+    color: white;
+    background-color: rgb(18, 207, 119);
+}
+
+.cvDetails{
+    width: 100%;
+}
+
+.aboutContainer{
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.descriptionContainer{
+    width: 50%;
+    margin: 20px 0;
+}
+
+.descriptionContainer h1, .descriptionContainer p{
+    text-align: left;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.selfDetails{
+    width: 100%;
+    justify-content: flex-start;
+    margin: 5px 0;
+}
+
+.selfDetails h4{
+    width: 30%;
+}
+
+.selfDetails p{
+    width: 70%;
+}
+
+.selfDetails h4, .selfDetails p{
+    text-align: left;
+}
+
+.professionalSkillsContainer{
+    width: 90%;
+    text-align: left;
+    margin: 20px;
+}
+
+.skillsHeadingContainer, .skillsContainer{
+    width: 100%;
+}
+
+.languagesContainer, .toolsContainer{
+    width: 50%;
+    margin-top: 20px;
+    justify-content: flex-start;
+}
+
+.levelContainer{
+    width: 90%;
+    justify-content: flex-start;
+}
+
+.levelContainer h3, .level1, .level2, .level3{
+    width: 100%;
+}
+
+.level1, .level2, .level3{
+    margin: 10px;
+    height: 20px;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+
+.level{
+    width: 90%;
+    height: 20px;
+    border-radius: 5px;
+    background-color: rgb(0, 115, 255);
+}
+
+.toolsContainer .level{
+    background-color: rgb(18, 207, 119);
+}
+
+.level2 .level{
+    width: 70%;
+}
+
+.level3 .level{
+    width: 80%;
+}
